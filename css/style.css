@@ -4,15 +4,18 @@
     font-size: 30px;
     color: rgb(0, 0, 0);
 }
+
 .header_class_small {
     font-family: 'Bahnschrift SemiBold';
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
+
 .text {
     font-family: Bahnschrift;
     color: rgb(0, 0, 0);
 }
+
 body {
   background: rgb(255, 255, 255);
     margin:0;
@@ -22,53 +25,61 @@ h2 {
   font-family: monospace;
   color: #606060;
 }
+
 ul {
   list-style: none; 
   margin: 0 auto;
 }
+
 a {
   text-decoration: none;
   font-family: Bahnschrift;
   transition: .5s linear;
 }
-i {
-  margin-right: 10px;
-}
 
-.two ul {
+.menu ul {
   background: #721f1f;;
 }
-.two a {
+
+.menu a {
   display: flex;
   padding: 1em;
   background: rgba(255, 0, 0, 0.3);
   color: #ffffff;
 }
-.two a:hover {background: #160028}
+
+.menu a:hover {background: #160028}
+
 nav {
     display: flex;
     width: 100%;
     margin: 0 auto;
     background-color: #721f1f;
 }
+
 nav ul {
     padding: 0;
     padding-bottom: 0px;
 }
+
 nav li {
     float:left;
 }
+
 hr{
     border-color:rgb(255, 255, 255);
 }
+
 .rights {
     font-family: Bahnschrift;
     color: rgb(255, 255, 255);
 }
+
 .content{
   	position: relative;
 	  min-height: 100%;
 }
+
 .d_footer{
   background-color: #721f1f;
   position: absolute;
